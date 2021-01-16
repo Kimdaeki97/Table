@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		E0C58D0B25B2D782008BCA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D0A25B2D782008BCA28 /* AppDelegate.swift */; };
 		E0C58D0D25B2D782008BCA28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D0C25B2D782008BCA28 /* SceneDelegate.swift */; };
-		E0C58D0F25B2D782008BCA28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D0E25B2D782008BCA28 /* ViewController.swift */; };
 		E0C58D1225B2D782008BCA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D1025B2D782008BCA28 /* Main.storyboard */; };
 		E0C58D1425B2D785008BCA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D1325B2D785008BCA28 /* Assets.xcassets */; };
 		E0C58D1725B2D785008BCA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D1525B2D785008BCA28 /* LaunchScreen.storyboard */; };
+		E0C58D2125B2DB52008BCA28 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D2025B2DB52008BCA28 /* TableViewController.swift */; };
+		E0C58D2425B2DB76008BCA28 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D2325B2DB76008BCA28 /* AddViewController.swift */; };
+		E0C58D2725B2DB91008BCA28 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C58D2625B2DB91008BCA28 /* DetailViewController.swift */; };
+		E0C58D2C25B2DD4C008BCA28 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D2925B2DD4C008BCA28 /* cart.png */; };
+		E0C58D2D25B2DD4C008BCA28 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D2A25B2DD4C008BCA28 /* clock.png */; };
+		E0C58D2E25B2DD4C008BCA28 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C58D2B25B2DD4C008BCA28 /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0C58D0725B2D782008BCA28 /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C58D0A25B2D782008BCA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C58D0C25B2D782008BCA28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0C58D0E25B2D782008BCA28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0C58D1125B2D782008BCA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0C58D1325B2D785008BCA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C58D1625B2D785008BCA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0C58D1825B2D785008BCA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C58D2025B2DB52008BCA28 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E0C58D2325B2DB76008BCA28 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		E0C58D2625B2DB91008BCA28 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E0C58D2925B2DD4C008BCA28 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		E0C58D2A25B2DD4C008BCA28 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		E0C58D2B25B2DD4C008BCA28 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 		E0C58D0925B2D782008BCA28 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				E0C58D2925B2DD4C008BCA28 /* cart.png */,
+				E0C58D2A25B2DD4C008BCA28 /* clock.png */,
+				E0C58D2B25B2DD4C008BCA28 /* pencil.png */,
 				E0C58D0A25B2D782008BCA28 /* AppDelegate.swift */,
 				E0C58D0C25B2D782008BCA28 /* SceneDelegate.swift */,
-				E0C58D0E25B2D782008BCA28 /* ViewController.swift */,
 				E0C58D1025B2D782008BCA28 /* Main.storyboard */,
+				E0C58D2025B2DB52008BCA28 /* TableViewController.swift */,
+				E0C58D2325B2DB76008BCA28 /* AddViewController.swift */,
+				E0C58D2625B2DB91008BCA28 /* DetailViewController.swift */,
 				E0C58D1325B2D785008BCA28 /* Assets.xcassets */,
 				E0C58D1525B2D785008BCA28 /* LaunchScreen.storyboard */,
 				E0C58D1825B2D785008BCA28 /* Info.plist */,
@@ -124,7 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C58D2E25B2DD4C008BCA28 /* pencil.png in Resources */,
 				E0C58D1725B2D785008BCA28 /* LaunchScreen.storyboard in Resources */,
+				E0C58D2D25B2DD4C008BCA28 /* clock.png in Resources */,
+				E0C58D2C25B2DD4C008BCA28 /* cart.png in Resources */,
 				E0C58D1425B2D785008BCA28 /* Assets.xcassets in Resources */,
 				E0C58D1225B2D782008BCA28 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C58D0F25B2D782008BCA28 /* ViewController.swift in Sources */,
 				E0C58D0B25B2D782008BCA28 /* AppDelegate.swift in Sources */,
+				E0C58D2125B2DB52008BCA28 /* TableViewController.swift in Sources */,
+				E0C58D2725B2DB91008BCA28 /* DetailViewController.swift in Sources */,
+				E0C58D2425B2DB76008BCA28 /* AddViewController.swift in Sources */,
 				E0C58D0D25B2D782008BCA28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
